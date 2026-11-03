@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="icon-buddypress" transform="translate(-577 -353)">
+    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(577 353)" fill="none" stroke="#df5427" stroke-width="2">
+      <circle cx="50" cy="50" r="50" stroke="none"/>
+      <circle cx="50" cy="50" r="49" fill="none"/>
+    </g>
+    <g id="Group_50" data-name="Group 50" transform="translate(334.371 193.059)">
+      <circle id="Ellipse_17" data-name="Ellipse 17" cx="6.869" cy="6.869" r="6.869" transform="translate(285.695 188.965)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_75" data-name="Path 75" d="M307.411,226.522v-5.066a14.8,14.8,0,0,0-25.271-10.465c-.088.088-.176.176-.255.265a14.715,14.715,0,0,0-4.086,10.2v5.066" transform="translate(-0.274 -0.356)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <g id="Group_48" data-name="Group 48" transform="translate(264.19 195.834)">
+        <g id="Group_46" data-name="Group 46">
+          <circle id="Ellipse_18" data-name="Ellipse 18" cx="5.293" cy="5.293" r="5.293" transform="translate(6.291)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Path_76" data-name="Path 76" d="M264.19,226.581v-5.566a11.419,11.419,0,0,1,17.422-9.7" transform="translate(-264.19 -196.25)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Group_47" data-name="Group 47" transform="translate(39.047)">
+          <circle id="Ellipse_19" data-name="Ellipse 19" cx="5.293" cy="5.293" r="5.293" transform="translate(1.181)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Path_77" data-name="Path 77" d="M304.04,211.5a11.414,11.414,0,0,1,17.706,9.514v5.566" transform="translate(-304.04 -196.25)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_49" data-name="Group 49" transform="translate(264.19 226.165)">
+        <path id="Path_78" data-name="Path 78" d="M321.594,226.93H298.51" transform="translate(-264.841 -226.93)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_79" data-name="Path 79" d="M264.19,226.93h23.075" transform="translate(-264.19 -226.93)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

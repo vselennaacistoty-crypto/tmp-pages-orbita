@@ -1,0 +1,150 @@
+/* Шаблон статьи блога «Своя орбита». Свой лёгкий слой поверх фирменных переменных. */
+.so-article {
+  --so-accent: #FF6B35;
+  --so-dark: #1E2A4A;
+  --so-text: #3C4657;
+  --so-muted: #6B7688;
+  --so-line: #E3E8F0;
+  --so-soft: #F3F6FA;
+  font-family: "Golos Text", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--so-text);
+  font-size: 18px;
+  line-height: 1.65;
+}
+.so-wrap { max-width: 1160px; margin: 0 auto; padding: 0 20px; }
+.so-grid { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 56px; align-items: start; }
+@media (max-width: 1023px) { .so-grid { grid-template-columns: minmax(0, 1fr); gap: 32px; } }
+
+/* Шапка статьи */
+/* шапка сайта зафиксирована сверху — отступаем на её высоту */
+.so-head { padding: 136px 0 8px; }
+.so-crumbs { font-size: 14px; color: var(--so-muted); margin: 0 0 18px; }
+.so-crumbs a { color: var(--so-muted); text-decoration: none; border-bottom: 1px solid var(--so-line); }
+.so-crumbs a:hover { color: var(--so-accent); border-color: currentColor; }
+.so-crumbs span { padding: 0 6px; }
+.so-article h1 {
+  font-size: clamp(30px, 4.2vw, 46px); line-height: 1.16; letter-spacing: -0.02em;
+  color: var(--so-dark); margin: 0 0 16px; font-weight: 700;
+}
+.so-meta { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 15px; color: var(--so-muted); margin: 0 0 8px; }
+.so-meta b { color: var(--so-dark); font-weight: 600; }
+.so-lead { font-size: 21px; line-height: 1.55; color: var(--so-dark); margin: 20px 0 0; }
+
+/* AEO: блок прямого ответа. Всегда раскрыт, без анимаций высоты — не ломается. */
+.so-tldr {
+  background: var(--so-soft); border-left: 4px solid var(--so-accent);
+  border-radius: 0 14px 14px 0; padding: 22px 26px; margin: 32px 0;
+}
+.so-tldr h2 {
+  font-size: 15px; text-transform: uppercase; letter-spacing: .08em;
+  color: var(--so-accent); margin: 0 0 12px; font-weight: 700;
+}
+.so-tldr p { margin: 0 0 10px; color: var(--so-dark); font-size: 17px; }
+.so-tldr ul { margin: 0; padding-left: 20px; }
+.so-tldr li { margin: 0 0 8px; color: var(--so-dark); font-size: 17px; }
+.so-tldr > :last-child { margin-bottom: 0; }
+
+/* Оглавление */
+.so-toc { border: 1px solid var(--so-line); border-radius: 14px; padding: 20px 24px; margin: 0 0 32px; background: #fff; }
+.so-toc h2 { font-size: 15px; text-transform: uppercase; letter-spacing: .08em; color: var(--so-muted); margin: 0 0 12px; font-weight: 700; }
+.so-toc ol { margin: 0; padding-left: 20px; }
+.so-toc li { margin: 0 0 8px; font-size: 16px; }
+.so-toc a { color: var(--so-dark); text-decoration: none; }
+.so-toc a:hover { color: var(--so-accent); }
+.so-side { position: sticky; top: 128px; }
+.so-side .so-toc { background: #fff; }
+@media (max-width: 1023px) { .so-side { display: none; } }
+.so-toc-mobile { display: none; }
+@media (max-width: 1023px) { .so-toc-mobile { display: block; } }
+
+/* Тело */
+.so-body h2 {
+  font-size: clamp(24px, 3vw, 32px); line-height: 1.25; color: var(--so-dark);
+  margin: 48px 0 16px; font-weight: 700; scroll-margin-top: 130px;
+}
+.so-body h3 { font-size: 21px; line-height: 1.3; color: var(--so-dark); margin: 32px 0 12px; font-weight: 600; }
+.so-body p { margin: 0 0 18px; }
+.so-body ul, .so-body ol { margin: 0 0 20px; padding-left: 24px; }
+.so-body li { margin: 0 0 10px; }
+.so-body a { color: var(--so-accent); text-decoration: none; border-bottom: 1px solid rgba(255,107,53,.35); }
+.so-body a:hover { border-bottom-color: currentColor; }
+.so-body strong { color: var(--so-dark); font-weight: 600; }
+.so-body blockquote {
+  margin: 28px 0; padding: 18px 24px; background: var(--so-soft);
+  border-radius: 14px; color: var(--so-dark); font-size: 19px; line-height: 1.55;
+}
+.so-body blockquote p:last-child { margin-bottom: 0; }
+.so-body hr { border: 0; border-top: 1px solid var(--so-line); margin: 40px 0; }
+.so-table-wrap { overflow-x: auto; margin: 0 0 24px; }
+.so-body table { border-collapse: collapse; width: 100%; font-size: 16px; }
+.so-body th, .so-body td { border: 1px solid var(--so-line); padding: 12px 14px; text-align: left; vertical-align: top; }
+.so-body th { background: var(--so-soft); color: var(--so-dark); font-weight: 600; }
+
+/* FAQ */
+.so-faq { margin: 56px 0 0; }
+.so-faq > h2 { font-size: clamp(24px, 3vw, 32px); color: var(--so-dark); margin: 0 0 20px; font-weight: 700; }
+.so-faq details { border: 1px solid var(--so-line); border-radius: 14px; padding: 0; margin: 0 0 12px; background: #fff; }
+.so-faq summary {
+  cursor: pointer; padding: 18px 52px 18px 22px; font-size: 18px; font-weight: 600;
+  color: var(--so-dark); list-style: none; position: relative;
+}
+.so-faq summary::-webkit-details-marker { display: none; }
+.so-faq summary::after {
+  content: ""; position: absolute; right: 22px; top: 50%; width: 10px; height: 10px;
+  border-right: 2px solid var(--so-accent); border-bottom: 2px solid var(--so-accent);
+  transform: translateY(-70%) rotate(45deg); transition: transform .18s ease;
+}
+.so-faq details[open] summary::after { transform: translateY(-30%) rotate(-135deg); }
+.so-faq .so-answer { padding: 0 22px 20px; }
+.so-faq .so-answer p { margin: 0 0 12px; }
+.so-faq .so-answer > :last-child { margin-bottom: 0; }
+
+/* CTA */
+.so-cta {
+  margin: 56px 0 0; background: var(--so-dark); color: #fff;
+  border-radius: 20px; padding: 36px 40px;
+}
+.so-cta h2 { color: #fff; font-size: clamp(22px, 2.6vw, 30px); margin: 0 0 12px; font-weight: 700; }
+.so-cta p { color: rgba(255,255,255,.82); margin: 0 0 22px; font-size: 17px; }
+.so-cta .so-btn {
+  display: inline-block; background: var(--so-accent); color: #fff; text-decoration: none;
+  padding: 14px 28px; border-radius: 999px; font-weight: 600; font-size: 17px;
+}
+.so-cta .so-btn:hover { background: #ff5a1c; }
+.so-cta .so-phone { display: inline-block; margin-left: 18px; color: #fff; text-decoration: none; font-size: 17px; border-bottom: 1px solid rgba(255,255,255,.4); }
+@media (max-width: 600px) { .so-cta { padding: 28px 22px; } .so-cta .so-phone { display: block; margin: 16px 0 0; } }
+
+/* Читайте дальше */
+.so-next { margin: 56px 0 24px; }
+.so-next h2 { font-size: clamp(24px, 3vw, 32px); color: var(--so-dark); margin: 0 0 20px; font-weight: 700; }
+.so-next-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+@media (max-width: 860px) { .so-next-grid { grid-template-columns: 1fr; } }
+.so-card {
+  display: block; border: 1px solid var(--so-line); border-radius: 16px; padding: 22px;
+  text-decoration: none; color: var(--so-dark); transition: border-color .18s ease, transform .18s ease;
+}
+.so-card:hover { border-color: var(--so-accent); transform: translateY(-2px); }
+.so-card .so-card-cluster { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--so-accent); font-weight: 700; }
+.so-card h3 { font-size: 18px; line-height: 1.35; margin: 10px 0 8px; font-weight: 600; }
+.so-card p { font-size: 15px; color: var(--so-muted); margin: 0; line-height: 1.5; }
+
+/* Список блога */
+.so-blog-head { padding: 140px 0 8px; }
+.so-blog-head h1 { margin-bottom: 12px; }
+.so-blog-head .so-lead { max-width: 780px; }
+.so-filters { display: flex; flex-wrap: wrap; gap: 10px; margin: 28px 0 32px; }
+.so-filters a {
+  display: inline-block; padding: 9px 18px; border: 1px solid var(--so-line); border-radius: 999px;
+  font-size: 15px; color: var(--so-dark); text-decoration: none;
+}
+.so-filters a:hover, .so-filters a[aria-current="true"] { border-color: var(--so-accent); color: var(--so-accent); }
+.so-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin: 0 0 56px; }
+@media (max-width: 1023px) { .so-list { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 680px) { .so-list { grid-template-columns: 1fr; } }
+.so-list .so-card h3 { font-size: 19px; }
+.so-section-title { font-size: 22px; color: var(--so-dark); margin: 40px 0 18px; font-weight: 700; }
+.so-sitemap-list { list-style: none; padding: 0; margin: 0 0 8px; columns: 2; column-gap: 40px; }
+@media (max-width: 680px) { .so-sitemap-list { columns: 1; } }
+.so-sitemap-list li { margin: 0 0 10px; break-inside: avoid; }
+.so-sitemap-list a { color: var(--so-dark); text-decoration: none; border-bottom: 1px solid var(--so-line); }
+.so-sitemap-list a:hover { color: var(--so-accent); border-color: currentColor; }

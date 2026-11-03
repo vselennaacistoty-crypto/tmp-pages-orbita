@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3889" data-name="Rectangle 3889" width="65" height="65" transform="translate(9515 -367)" fill="none" stroke="#707070" stroke-width="1"></rect>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_3372" data-name="Rectangle 3372" width="62.653" height="42.64" fill="none" stroke="#666" stroke-width="1.5"></rect>
+    </clipPath>
+  </defs>
+  <g id="Modern_Designs_icon" data-name="Modern Designs icon" transform="translate(-9515 367)" clip-path="url(#clip-path)">
+    <g id="Group_9351" data-name="Group 9351" transform="translate(9129 2619)">
+      <g id="Group_9236" data-name="Group 9236" transform="translate(387 -2975)">
+        <g id="Group_9235" data-name="Group 9235" clip-path="url(#clip-path-2)">
+          <path id="Path_9004" data-name="Path 9004" d="M54.229,2.843l6,.036A5.181,5.181,0,0,1,65.1,6.406a3.55,3.55,0,0,1,.187,1.062v29.46H9.808V7.462a4.825,4.825,0,0,1,4.829-4.819l32.579.165" transform="translate(-5.888 -1.587)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+          <path id="Path_9005" data-name="Path 9005" d="M48.573,12.739H19.842V42.99H67.3V12.8H63.925" transform="translate(-11.911 -7.647)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+          <path id="Path_9006" data-name="Path 9006" d="M38.88,88.421v1.332a2.694,2.694,0,0,1-2.685,2.7H27.529a2.693,2.693,0,0,1-2.686-2.7h0V88.417H1.447v3.956a3.047,3.047,0,0,0,3.265,2.766H59.678a3.044,3.044,0,0,0,3.265-2.766V88.421Z" transform="translate(-0.869 -53.078)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+          <path id="Path_9007" data-name="Path 9007" d="M62.667,92.454h8.664a2.694,2.694,0,0,0,2.686-2.7V88.417H59.98v1.332a2.7,2.7,0,0,0,2.683,2.705Z" transform="translate(-36.007 -53.078)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+          <path id="Path_9008" data-name="Path 9008" d="M93.915,21.815l-1.35,2.7-2.7,1.35,2.7,1.35,1.35,2.7,1.35-2.7,2.7-1.35-2.7-1.35Z" transform="translate(-53.947 -13.096)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+          <path id="Path_9009" data-name="Path 9009" d="M105.738,3.236l-1.35,2.7-2.7,1.35,2.7,1.35,1.35,2.7,1.35-2.7,2.7-1.35-2.7-1.35Z" transform="translate(-61.045 -1.943)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+          <line id="Line_1347" data-name="Line 1347" y2="1.35" transform="translate(48.744 9.394)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>
+          <line id="Line_1348" data-name="Line 1348" y2="1.35" transform="translate(48.744 12.094)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>
+          <line id="Line_1349" data-name="Line 1349" x2="1.35" transform="translate(49.419 11.419)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>
+          <line id="Line_1350" data-name="Line 1350" x2="1.35" transform="translate(46.719 11.419)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>
+          <path id="Path_9010" data-name="Path 9010" d="M81.741,27.215V38.691H59.464V21.814H72.29" transform="translate(-35.697 -13.096)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+          <path id="Path_9011" data-name="Path 9011" d="M72.568,50.446l.249,2L50.711,55.195,48.625,38.448l2.588-.322" transform="translate(-29.19 -22.887)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+          <path id="Path_9012" data-name="Path 9012" d="M66.219,48.158l4.562-6.076,4.889,5.4" transform="translate(-39.753 -25.263)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+          <path id="Path_9013" data-name="Path 9013" d="M86.487,45.8l2.025-2.025,5.4,5.4" transform="translate(-51.92 -26.277)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

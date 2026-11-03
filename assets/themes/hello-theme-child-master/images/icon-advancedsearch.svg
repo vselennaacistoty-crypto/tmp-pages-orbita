@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="icon-advancedsearch" transform="translate(-911 -353)">
+    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(911 353)" fill="none" stroke="#df5427" stroke-width="2">
+      <circle cx="50" cy="50" r="50" stroke="none"/>
+      <circle cx="50" cy="50" r="49" fill="none"/>
+    </g>
+    <g id="Group_99" data-name="Group 99" transform="translate(195.32 -33.552)">
+      <line id="Line_30" data-name="Line 30" x2="6.1" y2="6.1" transform="translate(772.12 444.043)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_145" data-name="Path 145" d="M773.814,439.332l-6.294,6.294,11.061,11.061,6.313-6.313Z" transform="translate(7.809 7.761)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <circle id="Ellipse_39" data-name="Ellipse 39" cx="20.584" cy="20.584" r="20.584" transform="translate(736.657 408.656)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <g id="Group_98" data-name="Group 98" transform="translate(749.091 417.908)">
+        <line id="Line_31" data-name="Line 31" y1="13.608" transform="translate(8.145 9.059)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_32" data-name="Line 32" y1="2.418" transform="translate(8.145)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_33" data-name="Line 33" y1="2.681" transform="translate(16.302 19.986)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_34" data-name="Line 34" y1="13.332" transform="translate(16.302)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_35" data-name="Line 35" y1="6.403" transform="translate(0 16.264)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_36" data-name="Line 36" y1="9.623" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <circle id="Ellipse_40" data-name="Ellipse 40" cx="3.324" cy="3.324" r="3.324" transform="translate(753.917 420.325)" fill="none" stroke="#df5427" stroke-miterlimit="10" stroke-width="2"/>
+      <circle id="Ellipse_41" data-name="Ellipse 41" cx="3.324" cy="3.324" r="3.324" transform="translate(762.068 431.246)" fill="none" stroke="#df5427" stroke-miterlimit="10" stroke-width="2"/>
+      <circle id="Ellipse_42" data-name="Ellipse 42" cx="3.324" cy="3.324" r="3.324" transform="translate(745.766 427.526)" fill="none" stroke="#df5427" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="icon-haro" transform="translate(-1456 -353)">
+    <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(1456 353)" fill="none" stroke="#df5427" stroke-width="2">
+      <circle cx="50" cy="50" r="50" stroke="none"/>
+      <circle cx="50" cy="50" r="49" fill="none"/>
+    </g>
+    <g id="Group_81" data-name="Group 81" transform="translate(-1.765)">
+      <g id="Group_78" data-name="Group 78" transform="translate(940.324 -43.965)">
+        <path id="Path_122" data-name="Path 122" d="M567.513,454.088l-7.888,7.888a10.2,10.2,0,0,1-14.431,0h0a10.2,10.2,0,0,1,0-14.431l10.935-10.936a10.206,10.206,0,0,1,14.432,0h0a10.308,10.308,0,0,1,1.191,1.43" transform="translate(0 3.94)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_123" data-name="Path 123" d="M559.444,432.841l7.888-7.888a10.2,10.2,0,0,1,14.431,0h0a10.2,10.2,0,0,1,0,14.431L570.827,450.32a10.2,10.2,0,0,1-14.431,0h0a10.143,10.143,0,0,1-1.192-1.429" transform="translate(4.394 0)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_80" data-name="Group 80">
+        <g id="Ellipse_30" data-name="Ellipse 30" transform="translate(1515 407)" fill="none" stroke="#df5427" stroke-width="2">
+          <circle cx="9" cy="9" r="9" stroke="none"/>
+          <circle cx="9" cy="9" r="8" fill="none"/>
+        </g>
+        <g id="Group_79" data-name="Group 79">
+          <path id="Path_124" data-name="Path 124" d="M13968,2549.86v4.7" transform="translate(-12444 -2138)" fill="none" stroke="#df5427" stroke-width="2"/>
+          <path id="Path_125" data-name="Path 125" d="M13968,2549.86v1.945" transform="translate(-12444 -2131.622)" fill="none" stroke="#df5427" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

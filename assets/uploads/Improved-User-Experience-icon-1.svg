@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3886" data-name="Rectangle 3886" width="65" height="65" transform="translate(10509 -766)" fill="none" stroke="#707070" stroke-width="1"></rect>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_3380" data-name="Rectangle 3380" width="57.827" height="45.281" fill="none" stroke="#666" stroke-width="1.5"></rect>
+    </clipPath>
+  </defs>
+  <g id="Improved_User_Experience_icon" data-name="Improved User Experience icon" transform="translate(-10509 766)" clip-path="url(#clip-path)">
+    <g id="Group_9355" data-name="Group 9355" transform="translate(10513 -756.28)">
+      <g id="Group_9251" data-name="Group 9251" transform="translate(0)">
+        <g id="Group_9248" data-name="Group 9248">
+          <g id="Group_9247" data-name="Group 9247" clip-path="url(#clip-path-2)">
+            <path id="Path_9019" data-name="Path 9019" d="M63.264,53.957l-2.42-.41s-.306-1.209,0-1.491a3.326,3.326,0,0,0,1.32-2.323V48.254a1.941,1.941,0,0,0-1.981-1.9H59.035a1.916,1.916,0,0,0-1.91,1.922h0v1.458a3.712,3.712,0,0,0,1.32,2.323c.278.3,0,1.478,0,1.478l-2.64.422c-1.884,0-3.3.832-3.3,2.64v3.7H66.786V56.6C66.785,54.789,65.148,53.957,63.264,53.957Z" transform="translate(-31.027 -27.392)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+            <path id="Path_9020" data-name="Path 9020" d="M55.1,44.526a1.977,1.977,0,0,0-1.869-1.269h-1.39a1.916,1.916,0,0,0-1.91,1.921v1.458a3.709,3.709,0,0,0,1.32,2.323c.278.3,0,1.479,0,1.479l-2.64.422c-1.883,0-3.3.832-3.3,2.64v3.7h3.36" transform="translate(-26.777 -25.562)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+            <path id="Path_9021" data-name="Path 9021" d="M78.314,54.1h2.94V50.367c0-1.827-1.637-2.666-3.52-2.666l-2.42-.414s-.306-1.222,0-1.507a3.372,3.372,0,0,0,1.32-2.348V42.086a1.916,1.916,0,0,0-1.911-1.921h-.8a1.916,1.916,0,0,0-1.911,1.921v.61" transform="translate(-42.556 -23.735)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+            <path id="Path_9022" data-name="Path 9022" d="M57.782,28.3V50.869H8.677V24.789a4.27,4.27,0,0,1,4.274-4.265h26.98" transform="translate(-5.128 -12.128)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+            <path id="Path_9023" data-name="Path 9023" d="M59.361,33.421V56.031H17.355V29.256h27.7" transform="translate(-10.256 -17.288)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+            <path id="Path_9024" data-name="Path 9024" d="M34.578,94.706v1.179A2.384,2.384,0,0,1,32.2,98.276H24.532a2.384,2.384,0,0,1-2.378-2.391h0V94.7H1.447v3.5a2.7,2.7,0,0,0,2.89,2.448h48.65a2.694,2.694,0,0,0,2.89-2.448v-3.5Z" transform="translate(-0.855 -55.964)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+            <path id="Path_9025" data-name="Path 9025" d="M54.444,98.276h7.668a2.384,2.384,0,0,0,2.377-2.391V94.7H52.066v1.179a2.385,2.385,0,0,0,2.375,2.395Z" transform="translate(-30.768 -55.964)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+          </g>
+        </g>
+        <g id="Group_9250" data-name="Group 9250">
+          <g id="Group_9249" data-name="Group 9249" clip-path="url(#clip-path-2)">
+            <path id="Path_9026" data-name="Path 9026" d="M111.767,13.431a.568.568,0,0,0-.166.506l.413,2.4L109.85,15.2a.582.582,0,0,0-.266-.065.574.574,0,0,0-.265.065l-2.155,1.133.409-2.4a.571.571,0,0,0-.166-.506l-1.74-1.7,2.409-.35a.566.566,0,0,0,.431-.313l1.078-2.189,1.085,2.191a.577.577,0,0,0,.432.311l2.41.35Z" transform="translate(-62.443 -5.246)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+            <path id="Path_9027" data-name="Path 9027" d="M110.768,13.373a1.559,1.559,0,0,1-1.558,1.557H95.88a.571.571,0,0,0-.378.143l-4.91,4.322V3a1.56,1.56,0,0,1,1.558-1.557H109.21A1.56,1.56,0,0,1,110.768,3Z" transform="translate(-53.534 -0.855)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

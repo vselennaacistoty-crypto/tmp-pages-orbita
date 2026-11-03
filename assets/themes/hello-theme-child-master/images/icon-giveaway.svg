@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="icon-giveaway" transform="translate(-1236 -353)">
+    <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(1236 353)" fill="none" stroke="#df5427" stroke-width="2">
+      <circle cx="50" cy="50" r="50" stroke="none"/>
+      <circle cx="50" cy="50" r="49" fill="none"/>
+    </g>
+    <g id="Group_54" data-name="Group 54" transform="translate(710 -97.645)">
+      <rect id="Rectangle_29" data-name="Rectangle 29" width="46.526" height="9.897" transform="translate(553 487.322)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_84" data-name="Path 84" d="M595.955,496.63v27.042H556.41V496.63" transform="translate(0.079 0.588)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_85" data-name="Path 85" d="M575.737,524.259V487.322s3.2-13.269,8.336-15.5,7.464,2.52,5.332,5.718-12.7,9.779-12.7,9.779" transform="translate(0.526)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_86" data-name="Path 86" d="M576,487.254s-2.714-10.943-7.269-12.687-5.817,2.714-3.005,6.059C568.484,483.905,576,487.254,576,487.254Z" transform="translate(0.26 0.068)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

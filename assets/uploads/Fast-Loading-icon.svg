@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3888" data-name="Rectangle 3888" width="65" height="65" transform="translate(10009 -368)" fill="#fff" stroke="#707070" stroke-width="1"></rect>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_3376" data-name="Rectangle 3376" width="50.675" height="40.105" fill="none" stroke="#666" stroke-width="1.5"></rect>
+    </clipPath>
+  </defs>
+  <g id="Fast_Loading_icon" data-name="Fast Loading icon" transform="translate(-10009 368)" clip-path="url(#clip-path)">
+    <g id="Group_9354" data-name="Group 9354" transform="translate(10016 -356)">
+      <g id="Group_9245" data-name="Group 9245" transform="translate(0)">
+        <line id="Line_1351" data-name="Line 1351" y2="27.664" transform="translate(47.992 7.034)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>
+        <line id="Line_1352" data-name="Line 1352" y1="27.664" transform="translate(2.682 7.034)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>
+        <g id="Group_9242" data-name="Group 9242">
+          <g id="Group_9241" data-name="Group 9241" clip-path="url(#clip-path-2)">
+            <rect id="Rectangle_3374" data-name="Rectangle 3374" width="49.625" height="4.34" transform="translate(0.525 0.525)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></rect>
+            <rect id="Rectangle_3375" data-name="Rectangle 3375" width="49.625" height="2.17" transform="translate(0.525 37.411)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></rect>
+          </g>
+        </g>
+        <line id="Line_1353" data-name="Line 1353" x2="33.982" transform="translate(14.009 2.695)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>
+        <g id="Group_9244" data-name="Group 9244">
+          <g id="Group_9243" data-name="Group 9243" clip-path="url(#clip-path-2)">
+            <rect id="Rectangle_3377" data-name="Rectangle 3377" width="49.625" height="32.546" transform="translate(0.525 4.864)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></rect>
+          </g>
+        </g>
+        <line id="Line_1354" data-name="Line 1354" x2="1.078" transform="translate(9.695 2.695)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>
+        <line id="Line_1355" data-name="Line 1355" x2="1.078" transform="translate(6.458 2.695)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>
+        <line id="Line_1356" data-name="Line 1356" x2="1.078" transform="translate(3.221 2.695)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>
+        <rect id="Rectangle_3379" data-name="Rectangle 3379" width="38.205" height="23.269" transform="translate(6.235 9.657)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></rect>
+        <path id="Path_9016" data-name="Path 9016" d="M61.4,43.992v7.623L67.544,47.8Z" transform="translate(-39.136 -28.039)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></path>
+        <line id="Line_1357" data-name="Line 1357" x2="4.155" transform="translate(9.419 28.983)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>
+        <line id="Line_1358" data-name="Line 1358" x2="23.929" transform="translate(17.149 28.983)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>
+        <line id="Line_1359" data-name="Line 1359" y1="3.584" transform="translate(14.098 27.19)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>
+      </g>
+    </g>
+  </g>
+</svg>

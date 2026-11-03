@@ -1,0 +1,254 @@
+/* Фирменные переменные сайта «Своя орбита». Меняем здесь — меняется весь сайт. */
+@import url("/assets/brand/font-golos.css");
+.elementor-kit-2, :root {
+  --brand-font-text: "Golos Text";
+  --brand-font-head: "Golos Text";
+}
+.elementor-kit-2 {
+  --e-global-color-primary: #FF6B35;   /* акцент: кнопки, ссылки, выделения */
+  --e-global-color-secondary: #1E2A4A; /* заголовки, тёмные плашки */
+  --e-global-color-text: #4A5568;      /* основной текст */
+  --e-global-color-11ee8db: #F3F6FA;   /* светлый фон секций */
+}
+
+
+
+/* CTA «Проверим…»: кадрируем фото офиса по лицам */
+#cta .elementor-widget-image .elementor-widget-container img { object-position: 50% 40%; }
+
+/* Сообщения форм */
+.so-form-note { margin: 14px 0 0; padding: 12px 16px; border-radius: 10px; font-size: 15px; line-height: 1.5; }
+.so-form-note[data-kind="ok"] { background: #EAF7EE; color: #1B6B35; border: 1px solid #BFE3CB; }
+.so-form-note[data-kind="error"] { background: #FDEDE8; color: #A33B1A; border: 1px solid #F5C9B8; }
+.so-form-note[data-kind="pending"] { background: #F3F6FA; color: #4A5568; border: 1px solid #E3E8F0; }
+
+/* ── Главная на телефоне: иллюстрации не вылезают за экран и не налезают на текст ──
+   В оригинальном шаблоне эти картинки намеренно шире колонки и сдвинуты —
+   на десктопе это композиция, на телефоне превращается в кашу. */
+@media (max-width: 767px) {
+  .elementor-177 .elementor-element-6750158 > .elementor-widget-container,
+  .elementor-177 .elementor-element-710a9ee > .elementor-widget-container,
+  .elementor-177 .elementor-element-309cd24d > .elementor-widget-container,
+  .elementor-177 .elementor-element-57110bfa > .elementor-widget-container,
+  .elementor-177 .elementor-element-63032f7f > .elementor-widget-container {
+    width: auto !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .elementor-177 .elementor-element-6750158 img,
+  .elementor-177 .elementor-element-710a9ee img,
+  .elementor-177 .elementor-element-309cd24d img,
+  .elementor-177 .elementor-element-57110bfa img,
+  .elementor-177 .elementor-element-63032f7f img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto;
+    margin: 0 auto !important;
+    transform: none !important;
+  }
+  /* внутренний div.image в блоке «Работаем в одной связке» уезжает влево на 130px */
+  .elementor-177 .elementor-element-63032f7f .image {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  /* заголовок «Настолько по-человечески…» на десктопе подтыкается под иллюстрацию
+     отрицательным отступом — на телефоне он из-за этого ложился прямо на картинку */
+  .elementor-177 .elementor-element-464edfb9 > .elementor-widget-container {
+    margin-top: 28px !important;
+  }
+}
+
+/* Широкие таблицы прокручиваются внутри себя, а не растягивают страницу */
+.so-scroll-x { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; }
+.so-scroll-x > table { max-width: none; }
+
+/* Предохранитель: ничто не должно расширять страницу по горизонтали.
+   overflow-x: clip вместо hidden — не ломает position: sticky внутри. */
+html { overflow-x: clip; }
+
+/* Карточка роли в блоке команды: пока нет фото и имён — простой честный блок */
+.so-role-card {
+  border: 1px solid #E3E8F0; border-radius: 16px; padding: 22px 24px;
+  background: #fff; height: 100%;
+}
+.so-role-card h3 {
+  position: static !important; margin: 0 0 8px; font-size: 19px; line-height: 1.3;
+  color: #1E2A4A; font-weight: 600;
+}
+.so-role-card p { margin: 0; font-size: 16px; line-height: 1.5; color: #4A5568; }
+
+/* --- Первый экран: длинные русские слова в узкой колонке ---------------- */
+/* Шаблон задаёт заголовок как clamp(80px, 7.5vw, 110px) и добавляет
+   #banner h1 { overflow-wrap: break-word }. Английские слова короткие и влезали,
+   русские — нет: слово молча рвалось посередине («Маркетин/г», «конфиденциал/ьности»).
+   Кегль уменьшен только на страницах, где самое длинное слово шире своей колонки.
+   Цифры не на глаз: ширина слова и колонки замерены в браузере на 1920px, запас 5%.
+   Остальные страницы сохраняют шаблонный кегль. Узкие экраны не трогаем —
+   там свой clamp в mobile-fix.css, разрывов нет. */
+@media (min-width: 768px) {
+  /* /privacy/ — «конфиденциальности», самое длинное слово на сайте */
+  body.page-id-55 #banner h1 {
+    font-size: clamp(50px, 4.72vw, 69px) !important;
+  }
+  /* /about/careers/ и четыре страницы вакансий — «Присоединяйтесь» */
+  body.page-id-24633 #banner h1 {
+    font-size: clamp(56px, 5.25vw, 77px) !important;
+  }
+  /* /services/branding/strategy/ — «Позиционирование» */
+  body.page-id-28812 #banner h1 {
+    font-size: clamp(62px, 5.77vw, 85px) !important;
+  }
+  /* /services/paid-social/ и /services/marketing/social-media-advertising/ — «Таргетированная» */
+  body.page-id-22 #banner h1 {
+    font-size: clamp(70px, 6.61vw, 97px) !important;
+  }
+  /* /pricing/social-media-advertising/ — «Таргетированная»; ломалось только
+     на промежуточной ширине около 1440px, замерено отдельно */
+  body.page-id-26982 #banner h1 {
+    font-size: clamp(72px, 6.73vw, 99px) !important;
+  }
+  /* /services/ — «Маркетинг» в колонке 560px */
+  body.page-id-9 #banner h1 {
+    font-size: clamp(72px, 6.74vw, 99px) !important;
+  }
+}
+
+/* --- Блок «из чего складывается стоимость» на /pricing/web-design/ --------- */
+/* Поставлен вместо калькулятора, который считал в долларах оригинала.
+   Своя вёрстка, а не классы Elementor-контейнера: те работают только вместе
+   с переменными, которые Elementor задаёт под конкретный id элемента. */
+.so-estimate {
+  display: block;
+  width: 100%;
+}
+.so-estimate__inner {
+  max-width: min(100%, 1024px);
+  margin: 0 auto;
+  padding: 80px 30px 60px;
+}
+.so-estimate__inner ul {
+  margin: 1.2em 0;
+  padding-left: 1.2em;
+  list-style: disc;
+}
+.so-estimate__inner li {
+  margin-bottom: 0.8em;
+}
+.so-estimate__inner .elementor-button {
+  display: inline-block;
+  margin-top: 0.8em;
+}
+@media (max-width: 767px) {
+  .so-estimate__inner { padding: 48px 20px 40px; }
+}
+
+/* Блок ссылок в подвале: три колонки разделов, которых не было в навигации.
+   Добавлен 05.10.2026 вместе с пунктом «Решения» в меню — до этого на 150 страниц
+   в подвале было всего 6 ссылок. */
+/* Подвал шаблона сам задаёт своим виджетам column-reverse из инлайнового CSS страницы,
+   перебить его селектором не выходит — поэтому колонки живут в собственной обёртке. */
+footer .so-footer-links { flex: 1 1 100%; width: 100%; }
+footer .so-footer-cols {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  gap: 24px 48px;
+  margin: 32px 0 8px;
+}
+footer .so-footer-cols ul {
+  display: block !important;
+  width: auto;
+  flex: 0 1 auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 190px;
+  max-width: 280px;
+}
+@media (max-width: 767px) {
+  footer .so-footer-cols { gap: 20px 24px; }
+  footer .so-footer-cols ul { min-width: 140px; }
+}
+
+/* Новый блок на главной под головной запрос «создание сайтов». Elementor генерирует
+   правила раскладки под каждый data-id, а у новой секции такого правила нет — поэтому
+   повторяем здесь то, что получают её соседи (#meet и #services-offer). */
+#web-studio.e-con {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#web-studio > .e-con-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: min(100%, 1024px);
+  margin: 0 auto;
+  padding: 0 30px;
+}
+@media (max-width: 767px) {
+  #web-studio > .e-con-inner { padding: 0 20px; }
+}
+
+/* /about/ — фото «человек показывает на доску» по шаблону свисает из первого экрана
+   на 228px (bottom:-228px в post-45.css), а у следующего блока #plot-twist сверху
+   только 135px. Английский заголовок оригинала был короче и пролезал, наш русский
+   в шесть строк уходил под фото. Сдвигаем вниз только колонку заголовка:
+   135 + 140 = 275px, то есть 47px воздуха под фото.
+   На планшете (768–1024px) фото уже не абсолютное, но шаблон подтягивает его
+   вниз отрицательным margin -172px при отступе блока 110px — перекрытие 62px.
+   Там обнуляем подтяжку, как mobile-fix.css делает для телефона. */
+@media (min-width: 1025px) {
+  .elementor-45 #plot-twist .elementor-element-11599f8c {
+    margin-top: 140px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .elementor-45 .elementor-element.elementor-element-4e4040eb > .elementor-widget-container {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Плашки первого экрана. Раньше это были три картинки с текстом в кривых
+   (fact-1..3.svg): город в них был зашит намертво, поиск их не видел, читалка
+   экрана тоже. Теперь настоящий текст, геострока приходит из профиля. */
+#hero .so-facts,
+.so-facts {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  /* !important: шаблон задаёт этому списку gap 90px, и третья плашка уезжала на
+     вторую строку — в оригинале все три стояли в ряд. */
+  gap: 16px 28px !important;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.so-facts > li {
+  display: flex !important;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 100%;
+}
+.so-facts .so-fact-ico {
+  flex: 0 0 34px;
+  width: 34px;
+  height: 34px;
+  line-height: 0;
+}
+.so-facts .so-fact-ico svg { width: 34px; height: 34px; display: block; }
+.so-facts .so-fact-txt { display: flex; flex-direction: column; line-height: 1.25; }
+.so-facts .so-fact-top { font-weight: 700; font-size: 17px; color: #1E2A4A; }
+.so-facts .so-fact-sub { font-size: 14px; color: #5B6478; }
+
+@media (max-width: 767px) {
+  .so-facts { gap: 14px 18px !important; }
+  .so-facts .so-fact-top { font-size: 16px; }
+  .so-facts .so-fact-sub { font-size: 14px; }
+}

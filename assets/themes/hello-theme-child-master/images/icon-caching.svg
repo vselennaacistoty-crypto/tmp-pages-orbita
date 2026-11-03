@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="icon-caching" transform="translate(-1130 -353)">
+    <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(1130 353)" fill="none" stroke="#df5427" stroke-width="2">
+      <circle cx="50" cy="50" r="50" stroke="none"/>
+      <circle cx="50" cy="50" r="49" fill="none"/>
+    </g>
+    <g id="Group_100" data-name="Group 100" transform="translate(349.718 -31.372)">
+      <path id="Path_146" data-name="Path 146" d="M836.471,453.507H806a2.885,2.885,0,0,1-2.888-2.888V416.058A2.886,2.886,0,0,1,806,413.17h45.154a2.894,2.894,0,0,1,2.888,2.888v23.313" transform="translate(0.001)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_37" data-name="Line 37" x2="50.938" transform="translate(803.105 422.096)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <circle id="Ellipse_43" data-name="Ellipse 43" cx="1.299" cy="1.299" r="1.299" transform="translate(807.545 416.051)" fill="#df5427"/>
+      <circle id="Ellipse_44" data-name="Ellipse 44" cx="1.299" cy="1.299" r="1.299" transform="translate(813.224 416.051)" fill="#df5427"/>
+      <circle id="Ellipse_45" data-name="Ellipse 45" cx="1.299" cy="1.299" r="1.299" transform="translate(818.851 416.051)" fill="#df5427"/>
+      <circle id="Ellipse_46" data-name="Ellipse 46" cx="1.299" cy="1.299" r="1.299" transform="translate(839.466 443.175)" fill="#df5427"/>
+      <circle id="Ellipse_47" data-name="Ellipse 47" cx="1.299" cy="1.299" r="1.299" transform="translate(839.466 453.507)" fill="#df5427"/>
+      <path id="Path_147" data-name="Path 147" d="M853.765,437.8c0-1.832-5.147-3.316-11.5-3.316s-11.5,1.484-11.5,3.316v14.393c0,1.83,5.146,3.315,11.5,3.315s11.5-1.484,11.5-3.315Z" transform="translate(5.695 4.386)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_148" data-name="Path 148" d="M853.765,442.829c0,1.83-5.147,3.315-11.5,3.315s-11.5-1.484-11.5-3.315" transform="translate(5.695 6.105)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

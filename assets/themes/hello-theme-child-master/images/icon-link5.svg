@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="icon-link5" transform="translate(-1016 -353)">
+    <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(1016 353)" fill="none" stroke="#df5427" stroke-width="2">
+      <circle cx="50" cy="50" r="50" stroke="none"/>
+      <circle cx="50" cy="50" r="49" fill="none"/>
+    </g>
+    <g id="Group_76" data-name="Group 76" transform="translate(-3 -2)">
+      <g id="Group_74" data-name="Group 74" transform="translate(500.795 -41.965)">
+        <path id="Path_122" data-name="Path 122" d="M567.513,454.088l-7.888,7.888a10.2,10.2,0,0,1-14.431,0h0a10.2,10.2,0,0,1,0-14.431l10.935-10.936a10.206,10.206,0,0,1,14.432,0h0a10.308,10.308,0,0,1,1.191,1.43" transform="translate(0 3.94)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_123" data-name="Path 123" d="M559.444,432.841l7.888-7.888a10.2,10.2,0,0,1,14.431,0h0a10.2,10.2,0,0,1,0,14.431L570.827,450.32a10.2,10.2,0,0,1-14.431,0h0a10.143,10.143,0,0,1-1.192-1.429" transform="translate(4.394 0)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <text id="_5_" data-name="5+" transform="translate(1083 427)" fill="#df5427" font-size="15" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="-8.577" y="0">5+</tspan></text>
+    </g>
+  </g>
+</svg>

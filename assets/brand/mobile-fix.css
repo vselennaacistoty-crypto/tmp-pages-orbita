@@ -1,0 +1,150 @@
+/* Собрано автоматически: python3 build/mobilefix.py. Руками не править. */
+/* Чинит мобильную вёрстку, унаследованную от шаблона оригинала. */
+@media (max-width: 767px) {
+  /* общее правило: ни одна картинка не шире своей колонки */
+  .elementor-widget-image img,
+  .elementor-widget-image figure,
+  .elementor-widget-text-editor img,
+  .elementor-image-box-img img {
+    max-width: 100% !important;
+    height: auto;
+    transform: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  /* заголовки из шаблона рассчитаны на десктоп: на телефоне слова не влезают
+     в строку и рвутся посреди. Масштабируем по ширине экрана. */
+  .elementor h1, .elementor .elementor-heading-title h1 {
+    font-size: clamp(28px, 9.5vw, 60px) !important;
+    line-height: 1.12 !important;
+  }
+  .elementor h2 {
+    font-size: clamp(22px, 7.2vw, 42px) !important;
+    line-height: 1.18 !important;
+  }
+  .elementor h3 {
+    font-size: clamp(18px, 5.2vw, 28px) !important;
+    line-height: 1.25 !important;
+  }
+  .elementor h1, .elementor h2, .elementor h3, .elementor h4 {
+    overflow-wrap: break-word;
+  }
+  /* обёртки картинок, сдвинутые за край экрана отступом или сдвигом */
+  .elementor .elementor-widget-container > .image {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  /* композиционные сдвиги из шаблона: на телефоне уводят блок за экран */
+  .elementor-element > .elementor-widget-container,
+  .elementor-element.remove-absolute-tablet,
+  .elementor-element.elementor-absolute {
+    transform: none !important;
+  }
+  /* колонки из десктопной сетки сжимаются до нечитаемых 100px —
+     задаём минимум, чтобы вместо сжатия они переносились на новую строку */
+  .elementor:not(.elementor-location-header) .e-con-inner > .elementor-widget,
+  .elementor:not(.elementor-location-header) .e-con-inner > .elementor-element {
+    min-width: min(100%, 260px);
+  }
+  .elementor .elementor-widget-n-accordion {
+    width: 100% !important;
+  }
+  /* видео из шаблона свёрстано под десктоп и на телефоне уезжает вбок */
+  .elementor video {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  /* картинки, которые в шаблоне намеренно шире колонки */
+  #banner.new.custom-web.ppc-new .elementor-widget-image img,
+  #banner.new.law-firm-new .elementor-widget-image img,
+  #banner.new.small-business .elementor-widget-image img,
+  #banner.new.ui-ux .elementor-widget-image img,
+  #banner.new.web-updates .elementor-widget-image img,
+  #banner.smm-pricing h1,
+	#banner.ppc-pricing h1,
+  #cta .elementor-widget-image .elementor-widget-container,
+  #expanded-services .elementor-widget-icon-box svg,
+  #mini-cta,
+  #plot-twist .elementor-widget-icon,
+  .elementor-10 .elementor-element.elementor-element-648b4847,
+  .elementor-13 .elementor-element.elementor-element-537af7e5,
+  .elementor-15 .elementor-element.elementor-element-3826355e img,
+  .elementor-17 .elementor-element.elementor-element-65cb1f88 img,
+  .elementor-177 .elementor-element.elementor-element-57110bfa img,
+  .elementor-177 .elementor-element.elementor-element-710a9ee img,
+  .elementor-18 .elementor-element.elementor-element-58ec80d,
+  .elementor-22866 .elementor-element.elementor-element-612216ac img,
+  .elementor-22876 .elementor-element.elementor-element-1e97cf9d img,
+  .elementor-22878 .elementor-element.elementor-element-5f22192c img,
+  .elementor-22879 .elementor-element.elementor-element-770864a6 img,
+  .elementor-23 .elementor-element.elementor-element-1c6573e3 img,
+  .elementor-25524 .elementor-element.elementor-element-5ef90fd img,
+  .elementor-26 .elementor-element.elementor-element-572bec91 img,
+  .elementor-26113 .elementor-element.elementor-element-69ed796b img,
+  .elementor-27 .elementor-element.elementor-element-1699188b img,
+  .elementor-27209 .elementor-element.elementor-element-787b309 img,
+  .elementor-28767 .elementor-element.elementor-element-95c0100 img,
+  .elementor-28770 .elementor-element.elementor-element-d6309b0 img,
+  .elementor-28795 .elementor-element.elementor-element-30bfd16 img,
+  .elementor-28797 .elementor-element.elementor-element-5d599fc img,
+  .elementor-28798 .elementor-element.elementor-element-30bfd16 img,
+  .elementor-28811 .elementor-element.elementor-element-5d599fc img,
+  .elementor-28812 .elementor-element.elementor-element-5d599fc img,
+  .elementor-28814 .elementor-element.elementor-element-5d599fc img,
+  .elementor-28815 .elementor-element.elementor-element-5d599fc img,
+  .elementor-28824 .elementor-element.elementor-element-5d599fc img,
+  .elementor-28829 .elementor-element.elementor-element-5d599fc img,
+  .elementor-28831 .elementor-element.elementor-element-5d599fc img,
+  .elementor-28845 .elementor-element.elementor-element-5d599fc img,
+  .elementor-28847 .elementor-element.elementor-element-5d599fc img,
+  .elementor-28849 .elementor-element.elementor-element-5d599fc img,
+  .elementor-28854 .elementor-element.elementor-element-5d599fc img,
+  .elementor-28857 .elementor-element.elementor-element-5d599fc img,
+  .elementor-28920 .elementor-element.elementor-element-572bec91 img,
+  .elementor-28924 .elementor-element.elementor-element-572bec91 img,
+  .elementor-28969 .elementor-element.elementor-element-1699188b img,
+  .elementor-28977 .elementor-element.elementor-element-1699188b img,
+  .elementor-28978 .elementor-element.elementor-element-1699188b img,
+  .elementor-28980 .elementor-element.elementor-element-1699188b img,
+  .elementor-29226 .elementor-element.elementor-element-2a079a8 img,
+  .elementor-34 .elementor-element.elementor-element-c900af0 img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    transform: none !important;
+  }
+  /* блоки, подтянутые настолько, что текст ложится на картинку.
+     Отрицательным бывает и нижний отступ («margin: 0 0 -129px» на /about/),
+     поэтому обнуляем обе стороны, а не только верхнюю. */
+  #services-offer .elementor-widget-image,
+  #side-by-side .elementor-widget-text-editor.link-building .elementor-widget-container video,
+  .elementor-19 .elementor-element.elementor-element-12b4b79 > .elementor-widget-container,
+  .elementor-25799 .elementor-element.elementor-element-e001778 > .elementor-widget-container,
+  .elementor-26719 .elementor-element.elementor-element-366ae2da > .elementor-widget-container,
+  .elementor-26982 .elementor-element.elementor-element-e001778 > .elementor-widget-container,
+  .elementor-45 .elementor-element.elementor-element-4e4040eb > .elementor-widget-container,
+  .elementor-46 .elementor-element.elementor-element-ac0893b > .elementor-widget-container,
+  .elementor-55 .elementor-element.elementor-element-366ae2da > .elementor-widget-container {
+    margin-top: 24px !important;
+    margin-bottom: 0 !important;
+  }
+  /* композиционные сдвиги из десктопной вёрстки: на телефоне они
+     загоняют заголовок под картинку (см. «Неожиданный поворот» на /about/) */
+  #side-by-side .link-building video,
+  #side-by-side.process-main .elementor-widget-text-editor .elementor-widget-container video,
+  #side-by-side.process-main .elementor-widget-text-editor.reversed-order .elementor-widget-container video,
+  .elementor-19 .elementor-element.elementor-element-4adc8d7e > .elementor-widget-container,
+  .elementor-20 .elementor-element.elementor-element-13c52d42 > .elementor-widget-container,
+  .elementor-21 .elementor-element.elementor-element-660405de > .elementor-widget-container,
+  .elementor-22487 .elementor-element.elementor-element-28e40d79 > .elementor-widget-container,
+  .elementor-22487 .elementor-element.elementor-element-7bb6ce8c > .elementor-widget-container,
+  .elementor-22879 .elementor-element.elementor-element-13ea733e > .elementor-widget-container,
+  .elementor-26113 .elementor-element.elementor-element-5908d62f > .elementor-widget-container,
+  .elementor-27542 .elementor-element.elementor-element-b350f30 > .elementor-widget-container {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}

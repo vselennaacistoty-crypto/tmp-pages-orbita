@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="Group_106" data-name="Group 106" transform="translate(-797 -357)">
+    <g id="Group_32" data-name="Group 32" transform="translate(631.063 261.505)">
+      <circle id="Ellipse_15" data-name="Ellipse 15" cx="5.792" cy="5.792" r="5.792" transform="translate(194.021 153.976)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <circle id="Ellipse_16" data-name="Ellipse 16" cx="5.792" cy="5.792" r="5.792" transform="translate(210.598 153.976)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_54" data-name="Path 54" d="M219.764,159.767h3v-37.9" transform="translate(2.417)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_55" data-name="Path 55" d="M225.178,146.493h-11.6l-9.692-5.051H189.821v16.745h4.2" transform="translate(0 1.58)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_2" data-name="Line 2" x2="4.994" transform="translate(205.604 159.767)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_56" data-name="Path 56" d="M219.153,147.711l-6.484-17.487a5.925,5.925,0,0,0-5.556-3.865H195.126v16.3" transform="translate(0.428 0.363)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_3" data-name="Line 3" x2="21.296" transform="translate(225.178 157.083)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_57" data-name="Path 57" d="M240.01,155.625v-15.7H222.537" transform="translate(2.641 1.458)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_58" data-name="Path 58" d="M235.779,140.548v-8.327H222.537" transform="translate(2.641 0.836)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(797 357)" fill="none" stroke="#df5427" stroke-width="2">
+      <circle cx="50" cy="50" r="50" stroke="none"/>
+      <circle cx="50" cy="50" r="49" fill="none"/>
+    </g>
+  </g>
+</svg>

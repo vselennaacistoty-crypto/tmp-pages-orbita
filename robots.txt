@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+Sitemap: https://xn----8sbcc6a7abqer1l.xn--p1ai/sitemap.xml

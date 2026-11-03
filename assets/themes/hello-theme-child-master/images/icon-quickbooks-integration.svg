@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="Group_107" data-name="Group 107" transform="translate(-1016 -357)">
+    <g id="Group_33" data-name="Group 33" transform="translate(780.645 259.26)">
+      <path id="Path_59" data-name="Path 59" d="M269.653,136.693v-12.3h20.364l15.049,15.049V167.8H269.653v-9.758" transform="translate(1.087 0)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_60" data-name="Path 60" d="M302.9,139.438H287.747V124.389" transform="translate(3.25 0)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_4" data-name="Line 4" x1="18.525" transform="translate(260.558 141.194)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_5" data-name="Line 5" x1="10.465" transform="translate(268.619 152.955)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_6" data-name="Line 6" x1="14" transform="translate(265.083 147.075)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect id="Rectangle_20" data-name="Rectangle 20" width="9.758" height="9.758" transform="translate(290.797 152.449)" fill="none" stroke="#df5427" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(1016 357)" fill="none" stroke="#df5427" stroke-width="2">
+      <circle cx="50" cy="50" r="50" stroke="none"/>
+      <circle cx="50" cy="50" r="49" fill="none"/>
+    </g>
+  </g>
+</svg>

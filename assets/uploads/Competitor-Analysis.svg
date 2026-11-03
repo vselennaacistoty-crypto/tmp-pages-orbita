@@ -1,0 +1,20 @@
+<svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_939_1067" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="17" y="9" width="76" height="92">
+<path d="M92.64 9H17V100.5H92.64V9Z" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_939_1067)">
+<path d="M32.2369 90.7393V75.6841" stroke="#F05A28" stroke-width="2.08" stroke-miterlimit="10"/>
+<path d="M23.9566 72.6733V56.8652" stroke="#F05A28" stroke-width="2.08" stroke-miterlimit="10"/>
+<path d="M32.2369 46.3257C34.7313 46.3257 36.7534 44.3035 36.7534 41.8091C36.7534 39.3147 34.7313 37.2925 32.2369 37.2925C29.7425 37.2925 27.7203 39.3147 27.7203 41.8091C27.7203 44.3035 29.7425 46.3257 32.2369 46.3257Z" stroke="#F05A28" stroke-width="2.08" stroke-miterlimit="10"/>
+<path d="M58.5839 50.0906L32.237 49.3379L23.2038 50.0906C21.1844 50.0906 19.44 51.7264 19.44 53.7531V72.6735H23.9566L26.2149 90.7399H37.5064L39.7647 53.8545H58.5839V50.0906Z" stroke="#F05A28" stroke-width="2.08" stroke-miterlimit="10"/>
+<path d="M90.2 19.98H19.44V24.4966H90.2V19.98Z" stroke="#F05A28" stroke-width="2.08" stroke-miterlimit="10"/>
+<path d="M19.44 47.8324V24.4966H90.2V68.9097H43.5285" stroke="#F05A28" stroke-width="2.08" stroke-miterlimit="10"/>
+<path d="M43.5287 64.3926H87.9418" stroke="#F05A28" stroke-width="2.08" stroke-miterlimit="10"/>
+<path d="M54.8627 46.2323C54.8337 45.8558 54.8192 45.4722 54.8192 45.0886C54.8192 36.8951 61.4638 30.2505 69.6574 30.2505C77.851 30.2505 84.4955 36.8951 84.4955 45.0886C84.4955 53.2821 77.851 59.9268 69.6574 59.9268C66.212 59.9268 63.0418 58.7542 60.5228 56.7854" stroke="#F05A28" stroke-width="2.08" stroke-miterlimit="10"/>
+<path d="M69.8746 44.8212L82.2085 37.0981" stroke="#F05A28" stroke-width="2.08" stroke-miterlimit="10"/>
+<path d="M57.0995 38.2417L69.8748 44.8212" stroke="#F05A28" stroke-width="2.08" stroke-miterlimit="10"/>
+<path d="M69.8746 44.8218V59.877" stroke="#F05A28" stroke-width="2.08" stroke-miterlimit="10"/>
+<path d="M23.2033 31.686H51.0556" stroke="#F05A28" stroke-width="2.08" stroke-miterlimit="10"/>
+<path d="M39.0112 40.4087H51.0555" stroke="#F05A28" stroke-width="2.08" stroke-miterlimit="10"/>
+</g>
+</svg>
